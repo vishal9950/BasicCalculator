@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="App5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textblock1" Height="20" TextAlignment="Right" Margin="100,160,674,460" SelectionChanged="textblock1_SelectionChanged"></TextBlock>
+        <TextBlock x:Name="textblock2" Height="20" TextAlignment="Right" Margin="100,180,674,440"></TextBlock>
+        <TextBlock x:Name="textblock3" Height="20" TextAlignment="Right" Margin="100,200,674,420"></TextBlock>
+        <TextBlock x:Name="textblock4" Height="20" TextAlignment="Right" Margin="100,220,674,400"></TextBlock>
+        <Button x:Name="button0" Content="0" Click="button0_Click"  Width="50" Height="50" Margin="150,389,0,201"></Button>
+        <Button x:Name="button1" Content="1" Click="button1_Click"  Width="50" Height="49" Margin="100,340,0,251"></Button>
+        <Button x:Name="button2" Content="2" Click="button2_Click"  Width="50" Height="49" Margin="150,340,0,251"></Button>
+        <Button x:Name="button3" Content="3" Click="button3_Click"  Width="50" Height="49" Margin="200,340,0,251"></Button>
+        <Button x:Name="button4" Content="4" Click="button4_Click"  Width="50" Height="50" Margin="100,290,0,300"></Button>
+        <Button x:Name="button5" Content="5" Click="button5_Click"  Width="50" Height="50" Margin="150,290,0,300"></Button>
+        <Button x:Name="button6" Content="6" Click="button6_Click"  Width="50" Height="50" Margin="200,290,0,300"></Button>
+        <Button x:Name="button7" Content="7" Click="button7_Click"  Width="50" Height="50" Margin="100,240,0,350"></Button>
+        <Button x:Name="button8" Content="8" Click="button8_Click"  Width="50" Height="50" Margin="150,240,0,350"></Button>
+        <Button x:Name="button9" Content="9" Click="button9_Click"  Width="50" Height="50" Margin="200,240,0,350"></Button>
+        <Button x:Name="add" Content="+" Click="add_Click" Width="50" Height="50" Margin="250,290,0,300"></Button>
+        <Button x:Name="sub" Content="-" Click="sub_Click"  Width="50" Height="50" Margin="300,290,0,300"></Button>
+        <Button x:Name="mul" Content="*" Click="mul_Click" Width="50" Height="49" Margin="250,340,0,251"></Button>
+        <Button x:Name="div" Content="/" Click="div_Click"  Width="50" Height="49" Margin="300,340,0,251"></Button>
+        <Button x:Name="eq" Content="=" Click="eq_Click" Width="100" Height="50" Margin="250,389,0,201"></Button>
+        <Button x:Name="clr" Content="CLEAR" Click="clr_Click" Width="100" Height="50" Margin="250,240,0,350"></Button>
+        <TextBlock x:Name="textBox" HorizontalAlignment="Left" Margin="179,135,0,0" TextWrapping="Wrap" Text="Calculator!" VerticalAlignment="Top" RenderTransformOrigin="0.53,1.45"/>
+    </Grid>
+</Page>
